@@ -16,16 +16,16 @@
       "128":"static/icon128.png"
     },
     
-  "background" :{
-      "persistent": false
-    },
+  // "background" :{
+  //     "persistent": false
+  //   },
 
 
      "content_scripts": [
     {
       "matches": ["https://www.google.com/*","http://www.google.com/*"],
-      "css": ["mystyles.css"],
-      "js": ["jquery.js", "myscript.js"]
+      "css": ["style-dark.css"]
+      // "js": ["jquery.js", "myscript.js"]
     }
   ],
 
@@ -46,7 +46,7 @@
   "permissions": [
     "activeTab",
     "https://www.google.com/*","http://www.google.com/*"
-  ],
+  ]
 
 
 }
