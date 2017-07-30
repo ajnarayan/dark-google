@@ -1,0 +1,52 @@
+{
+  "manifest_version": 2,
+
+  "name": "Google Dark",
+  "short_name":"dark-google",
+  "description": "This extension lets you change the color of google search and main page to dark #SaveEnergy",
+  "version": "1.0",
+  "author":"ajnarayan",
+  "icons":{
+      "16":"static/icon16.png",
+      "20":"static/icon20.png",
+      "24":"static/icon24.png",
+      "32":"static/icon32.png",
+      "48":"static/icon48.png",
+      "64":"static/icon64.png",
+      "128":"static/icon128.png"
+    },
+    
+  "background" :{
+      "persistent": false
+    },
+
+
+     "content_scripts": [
+    {
+      "matches": ["https://www.google.com/*","http://www.google.com/*"],
+      "css": ["mystyles.css"],
+      "js": ["jquery.js", "myscript.js"]
+    }
+  ],
+
+  "browser_action": {
+    "default_icon": {
+      "16":"static/icon16.png",
+      "20":"static/icon20.png",
+      "24":"static/icon24.png",
+      "32":"static/icon32.png",
+      "48":"static/icon48.png",
+      "64":"static/icon64.png",
+      "128":"static/icon128.png"
+    },
+    // "default_popup": "popup.html",
+    "default_title":"Google Dark"
+  },
+
+  "permissions": [
+    "activeTab",
+    "https://www.google.com/*","http://www.google.com/*"
+  ],
+
+
+}
