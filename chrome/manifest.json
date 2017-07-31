@@ -20,12 +20,11 @@
   //     "persistent": false
   //   },
 
-
      "content_scripts": [
     {
       "matches": ["https://www.google.com/*","http://www.google.com/*"],
-      "css": ["style-dark.css"]
-      // "js": ["jquery.js", "myscript.js"]
+      "css": ["style-dark.css"],
+      "run_at": "document_start"
     }
   ],
 
