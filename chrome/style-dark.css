@@ -1,3 +1,112 @@
 body{
-	background: #323232 !important ;
+	background: #2A2929 !important ;
+}
+
+#fbar {
+    background: #2A2929 !important;
+}
+
+/*
+Search Related:*/
+
+.sfbgg {
+    background-color: #3e3c3c !important; 
+    height: 65px;
+}
+
+.s {
+    color: #7b7b7b !important;
+}
+
+.mblink:visited, a:visited {
+    color: #ffffff !important;
+}
+
+a:link, .w, #prs a:visited, #prs a:active, .q:active, .q:visited, .kl:active, .tbotu {
+    color: #ffffff !important;
+}
+
+#hdtb {
+    background: #3e3c3c !important;
+}
+
+#hdtbSum {
+    background: #3e3c3c !important;
+}
+
+#brs .med {
+    color: #fff8f8 !important;
+}
+
+._thf ._pk {
+    color: #ffffff !important;
+}
+
+/*.ab_tnav_wrp {
+    background-color: #3e3c3c !important; 
+}
+*/
+
+#topabar{
+    background-color: #3e3c3c !important; 
+}
+
+/*News Search*/
+._hJs {
+    color: #a5a3a3 !important;
+}
+
+.ab_button {
+    background-color: #2a2929 !important;
+    background-image: -webkit-linear-gradient(top,#6b6464,#6d6a6a) !important;
+}
+
+/*Images and wikipedia integration*/
+._Jvo {
+   background: #2A2929 !important ;
+}
+
+#gsr.srp.tbo.vasq.wf-b{
+	color: #fff !important;
+}
+
+._Tgc {
+    color: #fff !important;
+}
+
+.kno-ecr-pt {
+    color: rgba(255, 249, 249, 0.87) !important;
+}
+
+._xdb.fl {
+    color: #9c9c9c !important;
+}
+
+._gdf {
+    color: #9c9c9c !important;
+}
+
+._W5e {
+    color: #fffefe !important;
+}
+
+._NRj._ORj.f._xRj{
+	background: #2A2929 !important ;
+}
+
+/*People Also ask for background*/
+._qgo ._qhf {
+    background: #505050 !important ;
+}
+
+._rhf {
+    color: #fff !important;
+}
+
+._VJq{
+	color: #000 !important;
+}
+
+a.fl:link, .fl a {
+    color: #fff !important;
 }
