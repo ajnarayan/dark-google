@@ -6,6 +6,13 @@ body{
     background: #2A2929 !important;
 }
 
+
+/*Background during search*/
+.sbsb_c {
+    color: black !important; 
+}
+
+
 /*
 Search Related:*/
 
@@ -187,3 +194,6 @@ background-color: #3c3c3c !important;
 .kltat{
 	color: #fff !important
 }
+
+
+
